@@ -21,6 +21,8 @@ Hoctane is a storage library with an optimized algorithm for fast lookup, intend
 ```js
 const store = new Store
 store.add('foo/:id')
+store.build()
+
 const {route, params} = store.find('foo/1')
 
 // params.id === 1
