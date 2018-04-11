@@ -1,0 +1,20 @@
+{
+  "author": "Yosbel Marin",
+  "name": "hoctane",
+  "version": "0.1.0",
+  "license": "MIT",
+  "description": "High-Octane route store/retriever",
+  "repository": "https://github.com/yosbelms/hoctane.git",
+  "main": "./index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jasmine ./tests/store.js"
+  },
+  "dependencies": {
+    "fast-decode-uri-component": "^1.0.0",
+    "path-to-regexp": "^2.1.0"
+  },
+  "devDependencies": {
+    "jasmine": "^3.1.0"
+  }
+}
