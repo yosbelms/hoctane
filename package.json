@@ -10,6 +10,14 @@
     "build": "tsc",
     "test": "jasmine ./tests/store.js"
   },
+  "keywords": [
+    "router",
+    "rute",
+    "trie",
+    "radix",
+    "speed",
+    "fast"
+  ],
   "dependencies": {
     "fast-decode-uri-component": "^1.0.0",
     "path-to-regexp": "^2.1.0"
