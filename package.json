@@ -1,7 +1,7 @@
 {
   "author": "Yosbel Marin",
   "name": "hoctane",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "MIT",
   "description": "High-Octane route store/retriever",
   "repository": "https://github.com/yosbelms/hoctane.git",
