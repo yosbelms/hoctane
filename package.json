@@ -8,7 +8,7 @@
   "main": "./index.js",
   "scripts": {
     "build": "tsc",
-    "test": "jasmine ./tests/store.js"
+    "test": "jasmine ./tests/*.js"
   },
   "keywords": [
     "router",

@@ -254,21 +254,6 @@ export class Store {
 
 }
 
-// const paths = [
-//   'Foo',
-//   'ab/c',
-//   'ab/cd/k',
-//   'abx',
-//   'abx/:id'
-//   // 'a:foo(\\d+)Xk',
-//   // 'a/([abc])?/(.)?',
-//   // ':foo,:bar'
-// ]
-
-// const store = new Store()
-// paths.forEach(p => store.add(p))
-// store.build()
-
-// let node = store.find('foo')
-
-// console.log('name')
+export function cleanPath(path: string): string {
+  return path.replace(/\/+/g, '/')
+}
